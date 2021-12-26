@@ -5,3 +5,4 @@ Lista de novas Tags: https://www.w3schools.com/html/html5_new_elements.asp
 Semantica no HTML 5: https://www.w3schools.com/html/html5_semantic_elements.asp
 Documentação dos tipos de input: https://www.w3schools.com/html/html_form_input_types.asp
 Simulando os tipos novos de input: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html
+Leitura recomendada sobre a semântica no HTML5: https://www.w3schools.com/html/html5_semantic_elements.asp
