@@ -10,19 +10,23 @@
 
 <body>
     <header>
-        <a href="exercicio-final.html"><img src="img/logo.png" alt="logospacex"></a>
-        <a href="spaceships.html">| The Spaceships</a>
-        <a href="hire-us.html"> | Hire us</a>
+        <nav>
+            <a href="exercicio-final.html"><img src="img/logo.png" alt="logospacex"></a>
+            <a href="spaceships.html">| The Spaceships</a>
+            <a href="hire-us.html"> | Hire us</a>
+        </nav>
         <hr>
     </header>
 
-    <h3>Hire Us Now</h3>
-    <div>
+    <section>
+        <h1>Hire Us Now</h1>
         <p>Leave a message to request one of our services and we will get back to you as soon as possible.</p>
-    </div>
+    </section>
+
+    <br>
 
     <section>
-        <form action="">
+        <form>
             <div>
                 <label for="name">Name: </label>
                 <input type="text" id="name" name="name"> -
@@ -31,27 +35,36 @@
                 <input type="email" id="email" name="email">
             </div>
 
-            <br>
+            <br><br>
 
             <div>
                 <label for="spaceship">Spaceship: </label>
                 <select id="spaceship" name="spaceship">
                 <option value="falcon9">Falcon 9</option>
                 <option value="falconheavy">Falcon Heavy </option>
+                </select> |
 
                 <label for="service">Type of Service: </label>
-                <input type="search" id="ssearch" name="ssearch">
+                <input type="search" id="service" name="service" list="services">
+                <datalist id="services">
+                    <option value="Nulla consectetur lorem vel risus porttitor volutpat"></option>
+                    <option value="Sed auctor magna ut lacus porta, et mattis dolor tempus"></option>
+                    <option value="Proin bibendum libero vel massa interdum fringilla"></option>
+                    <option value="Donec pharetra lacus sit amet eleifend tristique"></option>
+                </datalist>
             </div>
-            
-            <br>
+
+            <br><br>
 
             <div>
-                <input type="submit" value="Send Message"> 
+                <input type="submit" value="Send Message">
             </div>
-            
+
         </form>
     </section>
 
 </body>
+
+</html>
 
 </html>
