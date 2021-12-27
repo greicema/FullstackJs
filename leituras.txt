@@ -7,3 +7,4 @@ Documentação dos tipos de input: https://www.w3schools.com/html/html_form_inpu
 Simulando os tipos novos de input: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html
 Leitura recomendada sobre a semântica no HTML5: https://www.w3schools.com/html/html5_semantic_elements.asp
 Cores no CSS: https://www.w3schools.com/colors/default.asp
+Background e Borders: https://www.w3schools.com/css/css_background.asp​; https://www.w3schools.com/css/css_border.asp
