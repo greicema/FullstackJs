@@ -1,7 +1,16 @@
-li {
-    color: green
-}
-
 h1 {
     color: purple;
+    background-color: grey;
+    border: 2px dashed orange;
+}
+
+.moon {
+    color: rgb(199, 199, 0);
+    font-size: 20px;
+}
+
+body {
+    background-image: url('https://imagens.brasil.elpais.com/resizer/pyUITSI9SQ2AqMMl4Q6wZffEsA4=/1960x0/filters:focal(4059x1334:4069x1344)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/NHGIPTSUW5AGZC26PJNT24XG2M.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
