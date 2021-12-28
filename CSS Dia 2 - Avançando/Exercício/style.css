@@ -10,7 +10,7 @@ h3 {
     color: #f1c40f;
 }
 
-#days-of-week {
+li {
     color: white;
 }
 
@@ -18,10 +18,6 @@ h2 {
     background-color: #f1c40f;
     color: #2c3e50;
     border: 2px solid #2c3e50;
-}
-
-#activities {
-    color: white;
 }
 
 #astronomy-class {
