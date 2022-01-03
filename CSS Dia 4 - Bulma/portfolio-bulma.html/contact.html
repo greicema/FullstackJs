@@ -11,7 +11,91 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
 
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                  Início
+                </a>
+                    <a class="navbar-item" href="contact.html">
+                  Contato
+                </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="columns">
+        <div class="column is-one-fifth is-2">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">John Smith</p>
+                            <span class="tag is-black">
+                                <p>HTML - CSS - JS Developer </p>
+                              </span>
+
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <p>xx xxxxx-xxxx</p>
+
+                        <p>xxxxx@xxxxx.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-two-thirds">
+            <div class="box">
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                        <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                        <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <p class="help is-danger">This email is invalid</p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                    </div>
+                </div>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
