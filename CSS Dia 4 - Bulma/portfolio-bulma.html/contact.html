@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Contato</title>
 </head>
@@ -39,60 +40,65 @@
         </nav>
     </header>
 
-    <div class="columns">
-        <div class="column is-one-fifth is-2 is-offset-1">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">John Smith</p>
-                            <span class="tag is-black">
-                                <p>HTML - CSS - JS Developer </p>
-                              </span>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <span class="tag is-dark is-medium">
+                                        <p>HTML - CSS - JS Developer </p>
+                                      </span>
+                                </div>
+                            </div>
 
+                            <div class="content">
+                                <p>xx xxxxx-xxxx</p>
+
+                                <p>xxxxx@xxxxx.com</p>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="content">
-                        <p>xx xxxxx-xxxx</p>
+                <div class="column is-9">
+                    <div class="box">
+                        <div class="field">
+                            <label class="label">E-mail</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Digite seu e-mail">
+                                <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
 
-                        <p>xxxxx@xxxxx.com</p>
+                        <div class="field">
+                            <label class="label">Mensagem</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Digite a mensagem"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button class="button is-primary">Enviar</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="column is-two-thirds">
-            <div class="box">
-                <div class="field">
-                    <label class="label">E-mail</label>
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input" type="email" placeholder="Digite seu e-mail">
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label">Mensagem</label>
-                    <div class="control">
-                        <textarea class="textarea" placeholder="Digite a mensagem"></textarea>
-                    </div>
-                </div>
-
-                <div class="field is-grouped">
-                    <div class="control">
-                        <button class="button is-link">Enviar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 </body>
 
 </html>
