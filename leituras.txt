@@ -10,3 +10,4 @@ Cores no CSS: https://www.w3schools.com/colors/default.asp
 Background e Borders: https://www.w3schools.com/css/css_background.asp​; https://www.w3schools.com/css/css_border.asp
 Seletores: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS​; https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 Documentação Bulma: https://bulma.io/documentation/
+Tabela Verdade: https://www.todamateria.com.br/tabela-verdade/
