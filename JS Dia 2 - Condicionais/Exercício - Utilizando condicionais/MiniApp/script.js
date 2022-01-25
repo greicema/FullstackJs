@@ -15,7 +15,7 @@ if (chosenOption == "1") {
     alert("Flight time: " + hoursOfDeparture + " hours")
 } else if (chosenOption == "4") {
     let daysOfDeparture = Math.round(dateDifference / 1000 / 3600 / 24)
-    alert("Flight time: " + daysOfDeparture + " minutes")
+    alert("Flight time: " + daysOfDeparture + " days")
 } else {
-    alert("invalid option")
+    alert("Invalid option. Press F5.")
 }
