@@ -19,7 +19,7 @@ switch (chosenOption) {
         break
     default:
         chosenUnity = "Unidentified unity"
-        convertedDistance = "Out-of-scope conversion"
+        convertedDistance = "Out-of-scope conversion. Press F5."
 }
 
 alert("Distance in Light-years: " + distanceLightYears + "\n" + chosenUnity + ": " + convertedDistance)
