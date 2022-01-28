@@ -8,7 +8,7 @@ let sCount = 0
 function menu() {
     let option
     while (option != "1" && option != "2" && option != "3" && option != "4") {
-        option = prompt("What do you want to do?\n1 - Accelerate ship\n2 - Slow down ship\n3 - Show onboard data\n4 - Quit")
+        option = prompt("What do you want to do?\n1 - Accelerate the ship by 5km/s\n2 - Slow down the ship by 5km/s\n3 - Show onboard data\n4 - Quit")
     }
     return option
 }
