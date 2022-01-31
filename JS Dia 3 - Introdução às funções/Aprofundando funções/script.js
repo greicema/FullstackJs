@@ -1,5 +1,5 @@
 function shipSlowDown(velocity, printer) {
-    let slowDow
+    let slowDow = 20
     while (velocity > 0) {
         printer(velocity)
         velocity--
@@ -9,5 +9,5 @@ function shipSlowDown(velocity, printer) {
 
 let shipVelocity = 150
 shipSlowDown(shipVelocity, function(velocity) {
-    alert("Current Velocity: " + velocity)
+    console.log("Current Velocity: " + velocity)
 })
