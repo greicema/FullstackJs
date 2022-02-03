@@ -13,3 +13,5 @@ Documentação Bulma: https://bulma.io/documentation/
 Tabela Verdade: https://www.todamateria.com.br/tabela-verdade/
 High Order Functions: https://medium.com/@angelorubin/javascript-first-class-function-funções-de-primeira-classe-7ebf63d2c83a
 Documentação de arrays: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+.join: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+.findIndex: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
