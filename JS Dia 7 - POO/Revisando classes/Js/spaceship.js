@@ -1,5 +1,5 @@
 class Spaceship {
-    static get deceleration_rate() {
+    static get DECELERATION_RATE() {
         return 0.17
     }
     constructor(name, crewQuantity) {
@@ -8,6 +8,6 @@ class Spaceship {
         this.currentVelocity = 0
     }
     speedUp(acceleration) {
-        this.currentVelocity += acceleration * (1 - Spaceship.deceleration_rate)
+        this.currentVelocity += acceleration * (1 - Spaceship.DECELERATION_RATE)
     }
 }
