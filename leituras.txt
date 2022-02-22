@@ -18,3 +18,4 @@ Documentação de arrays: https://developer.mozilla.org/pt-BR/docs/Web/JavaScrip
 Documentação de objetos: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object
 Math: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
 Date: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date
+Event reference: https://developer.mozilla.org/pt-BR/docs/Web/Events
