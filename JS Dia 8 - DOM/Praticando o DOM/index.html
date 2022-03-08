@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Manipulando o DOM</title>
+</head>
+
+<body>
+    <h3>Home Registration</h3>
+
+    <form>
+        <p>
+            <label>Home type: </label>
+            <select name="home-type">
+                <option value="House">House</option>
+                <option value="Apartment">Apartment</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Home area: </label>
+            <input type="number" name="area" step="any" min="0" />
+        </p>
+
+        <p>
+            <input type="checkbox" name="rented" /> Rented
+        </p>
+
+        <button type="submit">Save</button>
+        <button type="button">Clean</button>
+    </form>
+
+    <br>
+
+    <h3>Registered properties</h3>
+
+    <ul id="home-list"></ul>
+</body>
+
+</html>
