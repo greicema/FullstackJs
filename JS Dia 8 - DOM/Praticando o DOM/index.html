@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="property.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
     <title>Manipulando o DOM</title>
 </head>
 
 <body>
     <h3>Home Registration</h3>
 
-    <form>
+    <form onsubmit="app.addProperty()">
         <p>
             <label>Home type: </label>
-            <select name="home-type">
+            <select name="kind">
                 <option value="House">House</option>
                 <option value="Apartment">Apartment</option>
             </select>
@@ -31,14 +33,13 @@
         </p>
 
         <button type="submit">Save</button>
-        <button type="button">Clean</button>
+        <button type="button" onclick="app.cleanForm()">Clean</button>
     </form>
 
     <br>
 
     <h3>Registered properties</h3>
-
-    <ul id="home-list"></ul>
+    <ul id="properties"></ul>
 </body>
 
 </html>
